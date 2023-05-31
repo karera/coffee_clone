@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(top.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  
+}
+.header.nav{
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    padding: 2px 6px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+        
+}
+.nav-links img{
+    width: 80px;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(28, 27, 27);
+    font-size: 16px;
+    padding: 10px;
+    
+}
+.image-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.image-box img{
+    width: 300px;   
+
+}
+.image-btn{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-btn{
+    display: inline-block;
+    /* background-color: grey; */
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    margin: 20px;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: gainsboro;
+    border-radius: 12px;
+    opacity: 0.8;
+    position: relative;
+    cursor: pointer; 
+}
+.hero-btn:hover{
+    border:1px solid black;
+    background: black;
+    transition: 1s;
+    color: #fff;
+}
+
+/* service */
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.service-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.service-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.service-col h1{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.service-col p{
+    padding: 0;
+}
+.zoom{
+    transition: transform .2s
+}
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+/* mission */
+
+.mission{
+    min-height: 60vh;
+    width: 100%;
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url(whiteBg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding:80px 0;
+}
+.mission h2{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.mission h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+.mission p{
+    padding: 40px;
+    
+}
+
+/* promise */
+.promise{
+    min-height: 60vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: left;
+    padding:100px 0;
+    margin-top: 20px;
+}
+.promise p{
+    font-size: 15px;
+    text-align: left;
+    margin: 40px;
+    color: #fff;
+}
+.promise h1{
+    font-size: 35px;
+    text-align: left;
+    margin: 40px;
+    color: #fff;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer h2{
+    font-size: 20px;
+}
+.footer h3{
+    margin-top: 8px;
+    font-size: 18px;
+}
