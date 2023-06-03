@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(/images/top.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(images/top.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -181,7 +181,7 @@ nav{
 .mission{
     min-height: 60vh;
     width: 100%;
-    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url(/images/whiteBg.jpg);
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url(images/whiteBg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -206,7 +206,7 @@ nav{
 .promise{
     min-height: 60vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(/images/banner.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(images/banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
