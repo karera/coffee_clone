@@ -74,6 +74,7 @@ nav{
     padding-right: 100px;
   }
   .bg-image{
+
     height: 80vh;
     width: 100%;
     margin-top: 20px;
@@ -120,6 +121,19 @@ nav{
 
 
 @media(max-width: 700px){
+    .bg-image{
+
+        height:100vh;
+        width: 100%;
+        margin-top: 20px;
+        background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(images/top.jpg);
+        background-size:cover;
+        background-position: center;
+         
+      }
+      .bg-image img{
+        width: 400px;
+      }
   
     .row{
         flex-direction: column;
